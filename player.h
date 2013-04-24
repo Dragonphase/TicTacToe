@@ -11,20 +11,20 @@ class Player
         string getID();
         ~Player();
     private:
-        string Name, ID;
+        string name, id;
 };
 
 Player::Player(string playerName, string playerID){
-    Name = playerName;
-    ID = playerID;
+    name = playerName;
+    id = playerID;
 }
 
 string Player::getName(){
-    return Name;
+    return name;
 }
 
 string Player::getID(){
-    return ID;
+    return id;
 }
 
 #endif // PLAYER_H_INCLUDED
